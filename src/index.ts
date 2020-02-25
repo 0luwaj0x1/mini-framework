@@ -3,11 +3,10 @@ import { User } from './models/User';
 
 
 
-const user = new User({name: 'Jozzy', age: 33});
+const user = new User({name: 'Boy', age: 20});
 
+user.events.on('change', () => {
+  console.log('something shele');
+})
 
-
-user.on('change', () => {console.log('change one')});
-user.on('change', () => {console.log('change two')});
-
-user.trigger('change');
+user.events.trigger('change');

@@ -1,0 +1,18 @@
+{
+  "name": "typescript-framwork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fullstackmofo/mini-framework.git",
+  "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "0.16.1"
+  },
+  "dependencies": {
+    "axios": "0.19.2"
+  },
+  "scripts": {
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html"
+  }
+}
