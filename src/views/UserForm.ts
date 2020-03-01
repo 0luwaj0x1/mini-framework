@@ -8,7 +8,7 @@ export class UserForm {
   }
 
   onButtonClick(): void {
-    console.log('Hi there');
+    console.log('Button clicked');
   }
 
   template() :string {
