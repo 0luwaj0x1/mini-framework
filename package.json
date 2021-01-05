@@ -9,7 +9,7 @@
     "json-server": "0.16.1"
   },
   "dependencies": {
-    "axios": "0.19.2"
+    "axios": "0.21.1"
   },
   "scripts": {
     "start:db": "json-server -w db.json",
